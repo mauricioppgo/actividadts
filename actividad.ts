@@ -5,7 +5,7 @@ class Elevate {
 
     constructor()
     {
-        this.pisoNumero=1; this.elevacion=5; this.estado=true;
+        this.pisoNumero=1; this.elevacion=7; this.estado=true;
     }
 
     getpisoNumero(pisoNumero)
@@ -50,6 +50,7 @@ class Elevate {
             do
             {
                 getpisoNumero+=1
+                
                 console.log(getpisoNumero);
                 
             }while(destino > getpisoNumero);
@@ -67,6 +68,7 @@ class Elevate {
         do
         {
             getpisoNumero-=1
+            
             console.log(getpisoNumero);
             
         }while(destino < getpisoNumero);
@@ -80,6 +82,7 @@ class Elevate {
         do
         {
             getpisoNumero-=1
+            
             console.log(getpisoNumero);
             
         }while(destino < getpisoNumero);}
@@ -89,6 +92,7 @@ class Elevate {
            do
            {
                 getpisoNumero+=1
+               
                 console.log(getpisoNumero);
             
             }while(destino > getpisoNumero);
